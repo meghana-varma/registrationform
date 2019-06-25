@@ -1,0 +1,32 @@
+.form{
+ 
+    border: 2px solid black;
+    align-content: center;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px 20px;
+     color: rgb(31, 30, 30);
+     padding: 30px;
+    position:absolute;
+    transition: .5s ease;
+    margin: 0% 30% 0% 30%;
+    background-color: darkgrey;
+    /* display: inline-block;
+    padding: 50% 50% 50% 50%; */
+
+}
+button{
+   margin:0% 30% 0% 40%;
+   width:60px;
+   grid-column: 1/span 2;
+   background-color: black;
+   -webkit-text-fill-color: whitesmoke;
+  
+}
+.check{
+   
+   
+   grid-column: 1/span 2;
+}
